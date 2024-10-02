@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+.hidden{
+    display: none;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], input[type="password"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+}
+
+h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+}
+
+table tbody tr {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Action Buttons Styling */
+.action-buttons button {
+    padding: 8px 12px; /* Adjusted padding for less elongation */
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px; /* Added margin for spacing between buttons */
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size for better readability */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.view-btn {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.edit-btn {
+    background-color: #ffc107; /* Yellow */
+    color: white;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.edit-btn:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Ensure the table fits within its container */
+.form-container table {
+    overflow-x: auto;
+    display: block;
+}
+
+.form-container table thead th, .form-container table tbody td {
+    min-width: 150px;
+}
+
