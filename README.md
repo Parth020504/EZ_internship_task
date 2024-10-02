@@ -9,7 +9,7 @@ The web application has 2 parts
    
    ![Screenshot 2024-10-02 113657](https://github.com/user-attachments/assets/234898b4-46e0-42be-bda6-938219e487a9)
    
-   ![Screenshot 2024-10-02 110343](https://github.com/user-attachments/assets/24408c94-92ac-4c07-aba1-f69a2bcc7b0c)
+   ![Screenshot (102)](https://github.com/user-attachments/assets/36866114-3b41-4165-99d9-a4980d0f3df2)
 
    You can also view an uploaded document:
    ![Screenshot (100)](https://github.com/user-attachments/assets/db9a018b-9c79-4934-86e8-610493000c90)
